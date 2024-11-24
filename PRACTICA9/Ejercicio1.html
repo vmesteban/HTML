@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1</title>
+</head>
+<body>
+    <table border="1" width="500">
+        <caption><h2>Hoja de inscripici&oacute;n <br> en los ciclos formativos de grado superior</h2></caption>
+        <tr>
+            <td><form>Apellidos:<br><input type="text" name="Apellidos" size="30"></form></td>
+            <td><form>Nombre:<br><input type="text" name="Nombre" size="20"></form></td>
+            <td><form>DNI:<br><input type="text" name="DNI" size="9"></form></td>
+        </tr>
+        <tr>
+            <td><form>Nacido/a en:<br><input type="text" name="Nacido" size="20"></form></td>
+            <td><form>Provincia:<br>
+                <select>
+                    <option value="Zaragoza">Zaragoza</option>
+                    <option value="Huesca">Huesca</option>
+                    <option value="Teruel">Teruel</option>
+                </select></form>
+            </td>
+            <td><form>Fecha nacimiento:(dd/mm/aa)<br><input type="text" name="Fecha" size="10"></form></td>
+        </tr>
+        <tr>
+            <td colspan="2"><form>Domicilio(Calle, plaza y número):<br><input type="text" name="Domicilio" size="60"><br></form></td>
+            <td><form>Código postal:<br><input type="text" name="Codigo" size="6"></form></td>
+        </tr>
+        <tr>
+            <td><form>Localidad:</form><input type="text" name="localidad"></form></td>
+            <td><form>Provincia:</form>
+                <select>
+                    <option value="Zaragoza">Zaragoza</option>
+                    <option value="Huesca">Huesca</option>
+                    <option value="Teruel">Teruel</option>
+                </select>
+            <td><form>Telefono:<br><input type="text" name="telefono" size="10"></form></td>
+        </tr>
+        <tr>
+            <td><form>Documentacion presentada</form>
+                <input type="checkbox" name="Fotocopia DNI">Fotocopia<br>
+                <input type="checkbox" name="Certificado academico">Certificado academico<br>
+                <input type="checkbox" name="Fotografia">Fotografia
+            </td>
+            <td><form>Tipo de acceso</form>
+                <input type="radio" name="Directo">Directo<br>
+                <input type="radio" name="Mediante prueba">Mediante prueba<br>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

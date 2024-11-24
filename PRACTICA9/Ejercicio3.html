@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio2</title>
+</head>
+<body>
+    <caption><h1>ejercicio de formularios</h1></caption>
+<!---->   <table border="0" width="500">
+<!---->     <tr>
+<!---->            <td>
+                <fieldset>
+                    <legend><em>primera parte</em></legend>
+                    <dl>
+                        <dt></dt>
+                            <dd><form>Nombre*: <input type="text" size="20"></form></dd>
+                            <dd><form>Email*: <input type="email" size="20"></form></dd>
+                            <dd><form>Sitio web: <input type="url" size="20"></form></dd>
+                            <dd><form>Mensaje: <textarea cols="35" rows="10" placeholder="Escribe algo"></textarea></form></dd>
+                            <dd><form>Fecha: <input type="date" value="mm / dd / yyyy" size="10"></form></dd>
+                            <dd><form>Número(min -10, max 10) <input type="number" min="-10" max="10"></form></dd>
+                    </dl>
+                </fieldset>
+ <!---->           </td>
+ <!---->        </tr>
+ <!---->        <tr>
+ <!---->            <td>
+            <dl>
+                <fieldset>
+                    <legend><em>segunda parte</em></legend>
+                    <dt></dt><br>
+                    <dd><form>Sexo*:<br>
+                        <input type="radio" name="sexo" checked>Chico<br>
+                        <input type="radio" name="sexo">Chica</form></dd>
+                    <dd><form>Lenguajes*:<br>
+                        <input type="checkbox" name="lenguajes">css<br>
+                        <input type="checkbox" name="lenguajes">html</form></dd>
+                    <dd><form>Lenguajes*:
+                        <select name="lenguajes" multiple>
+                            <option value="css">css</option>
+                            <option value="html">html</option> 
+                            <option value="javascript">javascript</option>
+                            <option value="php">php</option>
+                        </select></form></dd>
+                    <dd><form>Color Favorito: <input type="color" name="color"></form></dd>
+                </dt>
+                </fieldset>
+            </dl>
+ <!---->            </td>
+ <!---->        </tr>
+ <!---->       <tr>
+ <!---->            <td>
+            <dl>
+                <dt>
+                    <dd><form><input type="submit" name="enviar" value="Enviar mensaje">
+                              <input type="submit" name="borrar" value="borrar"></form></dd>
+                </dt>
+            </dl>
+ <!---->            </td>
+ <!---->        </tr>
+ <!---->    </table>
+</body>
+</html>
