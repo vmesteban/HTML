@@ -1,0 +1,107 @@
+body {
+	font: 12px Arial, Tahoma, Verdana, sans-serif;
+	background-image: url("../imagenes/motnañanevadafondo.jpg");
+}
+
+/* DIV CONTENEDOR GENERAL */
+#wrapper {
+	width: 960px;
+	margin: auto;
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+	height: 150px;
+	background: #FFE680;
+	background-image: url("../imagenes/motnañanevadafondo3.JPG");	
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+#middle {
+	width: 100%;
+    background-color: grey; 
+    overflow: auto;
+}
+
+#content {
+    /*Si no asociamos anchura al content intenta coger el 100% y se coloca en una línea diferente a la del #sideRight*/
+	width: 790px;
+	float: left;
+    background-color: grey;
+    padding: 10px;
+}
+
+#sideRight {
+	float: left;
+	width: 150px;	
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+	clear: left;
+	height:	60px;
+	background: white;
+}
+#footeriz li {
+	list-style-type: none;
+	display: inline; 
+	float: left;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+#footerder li{
+	list-style-type: none;
+	display: inline;
+	float: right;
+	padding-top: 20px;
+	padding-right: 10px;
+	font-size: 15px;
+	font-weight: bold;
+}
+.galeria {
+	display: flex;
+}
+
+/* 
+------------------------------------*/
+table {
+	width: 790px;
+	margin: 0;
+	padding: 0px;
+}
+td {
+	border: 1px solid black;
+	align-items: center;
+}
+tr {
+	text-align-last: center;
+}
+caption {
+	border:solid 1px; 
+	background-color: #E9F07D;
+	padding: 15px;
+	font-size: 20px;
+}
+#sideRight, .submit1,.submit2, .verde {
+	background-color: #A4D62B;
+}
+body, fieldset {
+	background-color: #E9F07D;
+}
+.submit1 {
+	position: relative;
+	left: 300px;
+}
+.submit2 {
+	position: relative;
+	left: 400px;
+}
+.amarillo {
+	background: #FFE680
+}
+.tarifa {
+	background: #ffffff;
+}
