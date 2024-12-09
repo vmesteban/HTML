@@ -1,0 +1,98 @@
+body {
+	font: 12px Arial, Tahoma, Verdana, sans-serif;
+	background-image: url(/Proyecto/imagenes/fondo\ 3.jpg);
+	background-size: cover;
+}
+
+/* DIV CONTENEDOR GENERAL */
+#wrapper {
+	width: 960px;
+	margin: auto;
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+#middle {
+	width: 100%;
+    background-color: grey; 
+    overflow: auto;
+}
+
+#content {
+    /*Si no asociamos anchura al content intenta coger el 100% y se coloca en una línea diferente a la del #sideRight*/
+	width: 790px;
+	float: left;
+    background-color: grey;
+    padding: 10px;   
+}
+
+#sideRight {
+	float: left;
+	width: 150px;	
+	background: #FFACAA;
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+    float: left;
+	clear: left;
+	height: 70px;
+	width: 960px;
+	background: white;
+	
+}
+.texto li, ul {
+	color: black;
+	display: inline-block;
+	list-style: none;
+	padding-left: 25px;
+	justify-content: flex-end;
+	text-align: right;
+	position: relative;
+
+}
+.footeriz li, ul{
+	display: inline;
+	float: left;
+	padding-right: 10px;
+}
+.footerder  {
+	display: inline;
+	float: right;
+	padding-top: 17px;
+}
+/* Panel de la derecha
+-----------------------------------------------------------------------------*/
+table {
+	width: 790px;
+	margin: 0;
+	padding: 0px;
+}
+td {
+	border: 1px solid black;
+	align-items: center;
+}
+tr {
+	text-align-last: center;
+}
+caption {
+	border:solid 1px; 
+	background-color: rgb(233,240,125);
+	padding: 15px;
+	font-size: 20px;
+}
+.verde, #sideRight {
+	background-color: rgb(164,214,43);;
+}
+.amarillo {
+	background-color: rgb(233,240,125);
+}
