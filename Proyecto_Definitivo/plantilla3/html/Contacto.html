@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/Proyecto/imagenes/aramon-icono.png">
+    <style type="text/css">
+        body {
+            background-color: rgb(233,240,125);
+        }
+        .submit1,.submit2 {
+            background-color: rgb(164,214,43);
+        }
+        .submit1 {
+            position: relative;
+            left: 300px;
+        }
+        .submit2 {
+            position: relative;
+            left: 600px;
+        }
+        form {
+            padding-left: 40px;
+        }
+    </style>
+    <title>Contacto</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Contacta con nosotros</legend>
+        <form>
+            <label>Nombre*</label>
+            <input type="text" name="nombre" maxlength="30" max="30">
+            <label>Apellido*</label>
+            <input type="text" name="apellido" maxlength="30" max="30"><br>
+            <br>
+            <label>Email*</label>
+            <input type="email" name="email" max="30">
+            <label>Numero de teléfono*</label>
+            <input type="number" name="telefono" max="12"><br>
+            <br>
+            <label>Fecha de Comiento de Reserva*</label>
+            <input type="date" name="comienzo_reserva">
+            <label>Fecha de Finalización de Reserva*</label>
+            <input type="date" name="finalizacion_reserva"><br>
+            <br>
+            <label>Tarifa*</label>
+            <select>
+                <option>Estudiante en un Centro Escolar de la Comarca (de 6 a 18 años)</option>
+                <option>Chiquitin (de 0 a 5 años)</option>
+                <option>Infantil (6 a 11 años) No estudiante en Comarca</option>
+                <option>Adulto (de 12 a 64 años)</option>
+                <option>Veterano (de 65 a 71 años)</option>
+                <option>Superveterano (más de 72 años)</option>
+            </select><br>
+            <label>(*)El abono SKI Pirineos Chiquitin y Superveterano no tienen descuento.</label><br>
+            <br>
+            <label>Tipo de reserva</label><br>
+            <input type="radio" name="radio" value="Hotel + Forfrait">
+            <label>Hotel + Forfrait</label><br>
+            <input type="radio" name="radio" value="Hotel">
+            <label>Hotel</label><br>
+            <input type="radio" name="radio" value="Forfrait">
+            <label>Forfrait</label><br>    
+            <label>Color de la Equipación</label>
+            <input type="color" name="color" value="color de la equipación"><br>
+            <br>
+            <label>País</label>
+            <select>
+                <option>Otro País</option>
+                <option>España</option>
+            </select><br>
+            <br>
+            <label>Número de Personas*</label>
+            <input type="number" name="personas" min="1"><br>
+            <br>
+            <div>
+                <input class="submit1" type="submit" name="reservar" value="Reservar">
+                <input class="submit2" type="submit" name="resetear" value="Resetear">
+            </div>
+        </form>
+    </fieldset>
+</body>
+</html>
