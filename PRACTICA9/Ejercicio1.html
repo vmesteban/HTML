@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1</title>
+</head>
+<body>
+    <table border="0" width="730px">
+        <caption><h2>Hoja de inscripici&oacute;n <br> en los ciclos formativos de grado superior</h2></caption>
+        <tr>
+            <td><form><label>Apellidos:</label><br><input type="text" name="Apellidos" size="30"></form></td>
+            <td><form><label>Nombre:</label><br><input type="text" name="Nombre" size="20"></form></td>
+            <td><form><label>DNI:</label><br><input type="text" name="DNI" size="9"></form></td>
+        </tr>
+        <tr>
+            <td><form><label>Nacido/a en:</label><br><input type="text" name="Nacido" size="20"></form></td>
+            <td><form><label>Provincia:</label><br>
+                <select>
+                    <option value="Zaragoza"><label>Zaragoza</label></option>
+                    <option value="Huesca"><label>Huesca</label></option>
+                    <option value="Teruel"><label>Teruel</label></option>
+                </select></form>
+            </td>
+            <td><form><label>Fecha nacimiento:(dd/mm/aa)</label><br><input type="text" name="Fecha" size="10"></form></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <form><label>Domicilio(Calle, plaza y número):</label><br><input type="text" name="Domicilio" size="60"></form></td>
+            <td><form><label>Código postal:</label><br><input type="text" name="Codigo" size="6"></form></td>
+        </tr>
+        <tr>
+            <td><form><label>Localidad:</label><br><input type="text" name="localidad" size="40"></form></td>
+            <td><form><label>Provincia:</label></form>
+                <select>
+                    <option value="Zaragoza"><label>Zaragoza</label></option>
+                    <option value="Huesca"><label>Huesca</label></option>
+                    <option value="Teruel"><label>Teruel</label></option>
+                </select>
+            </td>
+            <td><form><label>Telefono:</label><br><input type="tel" name="telefono" size="10"></form></td>
+        </tr>
+        <tr>
+            <td><form><label>Documentacion presentada:</label></form>
+                <input type="checkbox" name="Fotocopia DNI"><label>Fotocopia</label><br>
+                <input type="checkbox" name="Certificado academico"><label>Certificado academico</label><br>
+                <input type="checkbox" name="Fotografia"><label>Fotografia</label>
+            </td>
+            <td><form><label>Tipo de acceso:</label></form>
+                <input type="radio" name="Directo"><label>Directo</label><br>
+                <input type="radio" name="Mediante prueba"><label>Mediante prueba</label><br>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

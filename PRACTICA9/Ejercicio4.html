@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio4</title>
+</head>
+
+<body>
+    <caption>
+        <h1>iDESWEB</h1>
+    </caption>
+    <table border="0">
+        <tr>
+            <td>
+                <dl>
+                    <dt><p><h2>Formulario de registro</h2></p></dt>
+                    <dt><p>Los campos marcados con asterísco son obligatorios</p></dt>
+                    <dd><p>¿Quién eres?</p></dd><br>
+                    <dd><form>Nombre*<input type="text" name="nombre" required> Apellidos*<input type="text" name="apellidos" required></form></dd><br>
+                    <dd><form>Correo electrónico*<input type="email" name="email" required ></form></dd><br>
+                    <dd><form>Fecha de nacimiento<input type="text" name="fecha" value="mm / dd / yyyy" size="15"></form></dd><br>
+                    <dd><p>¿De dónde eres?</p></dd>
+                    <dd><form>Ciudad<input type="text"></form></dd><br>
+                    <dd><form>Código postal sólo 5 dígitos<input type="text" name="codpost" maxlength="5" size="5"></form></dd><br>
+                    <dd><form>País
+                        <select>
+                            <option value="España">España </option>
+                            <option value="Francia">Francia</option>
+                            <option value="Alemania">Alemania</option>
+                        </select></form></dd><br>
+                    <dd><p>¿Cómo quieres iniciar sesión?</p></dd><br>
+                    <dd><form>Nombre de usuario*(letras del alfabeto inglés y números, mínimo 4 carácteres)<input type="text" name="usuario" min="4" size="10" required></form></dd><br>
+                    <dd><form>Contraseña*(letras del alfabeto inglés, números, guión, "-", punto ".", mínimo 8 caractéres y máximo 12)<input type="text" name="contraseña" min="8" max="12" size="12" required></form></dd><br>
+                    <dd><form>Vuelve a escribir la contraseña*<input type="text" name="contaseña" size="12" required></form></dd>
+                    <dd><p>Condiciones de registro</p></dd><br>
+                    <dd><form>Deseo recibir ofertas de iDESWEB
+                        <input type="radio" name="oferta"><label>Una vez al día</label>
+                        <input type="radio" name="oferta"><label>Una vez a la semana</label>
+                        <input type="radio" name="oferta"><label>Una vez al mes</label></form></dd><br>
+                    <dd><form><input type="text" size="1">Acepto el acuerdo de servicios, la declaración de privacidad y la declaración de cookies</form></dd><br>
+                    <dd><form><input type="submit" value="Crear cuenta"></form></dd>
+                </dl>
+            </td>            
+        </tr>
+    </table>
+</body>
+</html>
